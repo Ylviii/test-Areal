@@ -1,5 +1,5 @@
 const express = require('express');
-const { Article, Comment } = require('./models'); // Укажите путь к вашим моделям
+const { Article, Comment } = require('./models'); 
 const app = express();
 
 app.use(express.json());
